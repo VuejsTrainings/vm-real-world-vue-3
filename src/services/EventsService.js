@@ -10,6 +10,9 @@ const baseAxios = axios.create({
 })
 export default { 
     getEvents() {
-        return baseAxios.get('/events')
+        return baseAxios.get('/events');
+    },
+    getEvent(id) { 
+        return baseAxios.get(`/events/${id}`);
     }
 };

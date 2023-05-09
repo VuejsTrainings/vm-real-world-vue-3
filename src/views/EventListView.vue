@@ -1,7 +1,7 @@
 <script setup>
   import EventCard from '@/components/EventCard.vue';
   import { ref, onMounted } from 'vue';
-  import EventsService from '@/services/EventServices.js';
+  import EventsService from '@/services/EventsService.js';
 
   let events = ref(null);
 
